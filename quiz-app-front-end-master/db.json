@@ -1,0 +1,108 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "first_name": "First",
+      "last_name": "Last",
+      "email": "stu2001321@uni-plovdiv.bg"
+    },
+    {
+      "id": 2,
+      "first_name": "First",
+      "last_name": "Last",
+      "email": "stu2001321@uni-plovdiv.bg"
+    }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "name": "PU team",
+      "captain_name": 1,
+      "points": 5
+    }
+  ],
+  "team_users": [
+    {
+      "team_id": 1,
+      "user_id": 1
+    }
+  ],
+  "questions": [
+    {
+      "id": 8,
+      "topic_id": "История",
+      "question": "Кой от посочените владетели управлява България през VІІІ век?",
+      "answer1": "Петър",
+      "answer2": "Омуртаг",
+      "answer3": "Калоян",
+      "correct_answers": "Тервел",
+      "images": "https://uchiteli.bg/public/uploads/files/Un5465%D1%82%D1%82titled_3.png",
+      "points": "2",
+      "timer_seconds": "10",
+      "is_active": true
+    },
+    {
+      "id": 9,
+      "topic_id": "История",
+      "question": "Кога е подписан Санстефанския мирен договор:",
+      "answer1": "2 февруари 1878 г.",
+      "answer2": "20 февруари 1878",
+      "answer3": "12 март 1876 г",
+      "correct_answers": "3 март 1878",
+      "images": "https://th.bing.com/th/id/R.c2e5a2480005af694d93bc48811f4754?rik=ZGWsFkuONIey%2fw&riu=http%3a%2f%2f1.bp.blogspot.com%2f-GLFtUjGxq6A%2fT6PBAmjhoaI%2fAAAAAAAAASc%2f4WcbfEqvKcE%2fs1600%2f%d0%9f%d0%be%d0%b4%d0%bf%d0%b8%d1%81%d0%b2%d0%b0%d0%bd%d0%b5%2b%d0%bd%d0%b0%2b%d0%a1%d0%b0%d0%bd%d1%81%d1%82%d0%b5%d1%84%d0%b0%d0%bd%d1%81%d0%ba%d0%b8%d1%8f%2b%d0%bc%d0%b8%d1%80%d0%b5%d0%bd%2b%d0%b4%d0%be%d0%b3%d0%be%d0%b2%d0%be%d1%80%2b%d0%be%d1%82%2b%d0%b3%d1%80%d0%b0%d1%84%2b%d0%98%d0%b3%d0%bd%d0%b0%d1%82%d0%b8%d0%b5%d0%b2.JPG&ehk=dSvyYTHudU7R6mf5gM6CoYmqyxmzF%2beU1PJUYXhYOGA%3d&risl=&pid=ImgRaw&r=0",
+      "points": "2",
+      "timer_seconds": "10",
+      "is_active": true
+    },
+    {
+      "id": 10,
+      "topic_id": "История",
+      "question": "Кога е подписан Берлинския договор:",
+      "answer1": "22 септември 1908 г.",
+      "answer2": "3 март 1878 г.",
+      "answer3": "10 юли 1878 г.",
+      "correct_answers": "13 юли 1878 г.",
+      "images": "https://th.bing.com/th/id/R.f1997fafa30eb2908dd1f228b3493cd2?rik=ZoPjsOrUMsoWKQ&riu=http%3a%2f%2fbtourism.com%2fpix%2fpix2%2f224.jpg&ehk=uL2%2fLcCPB7wtgAUkOvJLAbyb%2bH9dNKUabmZMC15pzRA%3d&risl=&pid=ImgRaw&r=0",
+      "points": "2",
+      "timer_seconds": "10",
+      "is_active": true
+    },
+    {
+      "id": 11,
+      "topic_id": "История",
+      "question": "Съединението между Княжество България и Източна Румелия:",
+      "answer1": "22 март 1878 г.",
+      "answer2": "3 март 1878 г.",
+      "answer3": "22 септември 1908 г.",
+      "correct_answers": "6 септември 1885 г.",
+      "images": "https://th.bing.com/th/id/R.07880e937c65488c9975fb3fe1ecb1cf?rik=okDPAH%2ffrAFhKQ&riu=http%3a%2f%2fstefanch.com%2fwp-content%2fuploads%2f2011%2f09%2fSaedinenieto.jpg&ehk=hcHYtULVHKWju4wm7cKbKlbfa3GQU48xUisjopBZ18Q%3d&risl=&pid=ImgRaw&r=0",
+      "points": "2",
+      "timer_seconds": "10",
+      "is_active": true
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "topic": "university"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 1,
+      "name": "First quiz"
+    }
+  ],
+  "quiz_topics": [
+    {
+      "quiz_id": 1,
+      "team_id": 1
+    }
+  ],
+  "quiz_teams": [
+    {
+      "quiz_id": 1,
+      "team_id": 1
+    }
+  ]
+}

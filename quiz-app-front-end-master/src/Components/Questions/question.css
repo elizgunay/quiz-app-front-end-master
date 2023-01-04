@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+.btnSave,.btnBack{
+    margin:5px;
+}
+
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+      
+}
+
+ 
+.btnAdd{
+    display: block;
+    align-items: center; 
+}
+
+.boxx{
+    background-image: url("/public/background.png");
+    background-size: cover;
+    background-position: center;
+    width:300px;
+    height:300px;
+    position: absolute;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+
